@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "semantic-release": "semantic-release --branches master",
+    "semantic-release": "semantic-release",
     "build:ping-ui": "ng build ping-ui",
     "lint": "ng lint"
   },
