@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'storybook-button',
+  selector: 'lib-storybook-button',
   imports: [CommonModule],
   template: ` <button
     type="button"
@@ -45,7 +45,7 @@ export default class ButtonComponent {
    * Optional click handler
    */
   @Output()
-  onClick = new EventEmitter<Event>();
+  btnClick = new EventEmitter<Event>();
 
   public get classes(): string[] {
     const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';

@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import type { User } from './User';
 
 @Component({
-  selector: 'storybook-header',
+  selector: 'lib-storybook-header',
   template: `<header>
     <div class="storybook-header">
       <div>
@@ -65,11 +65,11 @@ export default class HeaderComponent {
   user: User | null = null;
 
   @Output()
-  onLogin = new EventEmitter<Event>();
+  login = new EventEmitter<Event>();
 
   @Output()
-  onLogout = new EventEmitter<Event>();
+  logout = new EventEmitter<Event>();
 
   @Output()
-  onCreateAccount = new EventEmitter<Event>();
+  createAccount = new EventEmitter<Event>();
 }

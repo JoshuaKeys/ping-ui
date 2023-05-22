@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import type { User } from './User';
 
 @Component({
-  selector: 'storybook-page',
+  selector: 'lib-storybook-page',
   template: `<article>
     <storybook-header
       [user]="user"
