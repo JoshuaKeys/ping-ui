@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.2.0...v1.3.0) (2023-05-22)
+
+
+### Features
+
+* **release:** fixed pipelines failing ([c7dcd88](https://github.com/JoshuaKeys/ping-ui/commit/c7dcd8866a392e7c8d2a177908e620403de96a29))
+
 # [1.2.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.1.0...v1.2.0) (2023-05-22)
 
 
