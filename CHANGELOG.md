@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.1.0...v1.2.0) (2023-05-22)
+
+
+### Features
+
+* **release:** updated release ([c822273](https://github.com/JoshuaKeys/ping-ui/commit/c822273039bc4632d26f6ed14e9e7d54ebbaa9f7))
+
 # [1.1.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.0.0...v1.1.0) (2023-05-22)
 
 
