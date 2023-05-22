@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.0.0...v1.1.0) (2023-05-22)
+
+
+### Features
+
+* **ping-ui:** change the project's name ([1e4af44](https://github.com/JoshuaKeys/ping-ui/commit/1e4af44d942d66811f2cd12ef2f3a000392883e1))
+
 # 1.0.0 (2023-05-22)
 
 
