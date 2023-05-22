@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/JoshuaKeys/ping-ui/compare/v1.9.2...v1.9.3) (2023-05-22)
+
+
+### Bug Fixes
+
+* **release:** fixed the release pipeline ([675dc3f](https://github.com/JoshuaKeys/ping-ui/commit/675dc3f1e3da2fe8221bed86acea258b5dd85963))
+
 ## [1.9.2](https://github.com/JoshuaKeys/ping-ui/compare/v1.9.1...v1.9.2) (2023-05-22)
 
 
