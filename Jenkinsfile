@@ -21,6 +21,14 @@ pipeline {
             }
         }
 
+        stage('lint') {
+            steps {
+                nodejs(nodeJSInstallationName: 'nodejs') {
+                    sh 'npm run lint'
+                }
+            }
+        }
+
         stage('Build') {
             steps {
                 nodejs(nodeJSInstallationName: 'nodejs') {
