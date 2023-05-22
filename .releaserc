@@ -1,5 +1,5 @@
 {
-    "branches": ["master"],
+    "branches": ["origin/master"],
     "repositoryUrl": "git@github.com:JoshuaKeys/ping-ui.git",
     "tagFormat": "v${version}",
     "plugins": [
