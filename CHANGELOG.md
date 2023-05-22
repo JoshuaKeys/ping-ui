@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.3.0...v1.4.0) (2023-05-22)
+
+
+### Features
+
+* **releases:** fixed broken pipelines ([01df7db](https://github.com/JoshuaKeys/ping-ui/commit/01df7dbf89309b79ff61fae05f82194a6b6a0ce5))
+* **storybook:** added storybook and storybook deployment ([5636eae](https://github.com/JoshuaKeys/ping-ui/commit/5636eaeeabb9b40198b7e5b234893943b2ab86b9))
+
 # [1.3.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.2.0...v1.3.0) (2023-05-22)
 
 
