@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/JoshuaKeys/ping-ui/compare/v1.9.0...v1.9.1) (2023-05-22)
+
+
+### Bug Fixes
+
+* **deployment:** fixed pinglink server ([8d96e3b](https://github.com/JoshuaKeys/ping-ui/commit/8d96e3b4696e30edd65dac639bfd342de9887c0a))
+
 # [1.9.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.8.0...v1.9.0) (2023-05-22)
 
 
