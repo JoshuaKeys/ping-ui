@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.8.0...v1.9.0) (2023-05-22)
+
+
+### Features
+
+* **button:** removed large and secondary variants ([6820c67](https://github.com/JoshuaKeys/ping-ui/commit/6820c67b967ba8e3e3b25d39d559aad430355f45))
+* **button:** removed the small button variant ([131d44f](https://github.com/JoshuaKeys/ping-ui/commit/131d44f047b428ac2418f5866ac5d329c1367cbe))
+* **testing:** added somethings ([c72c023](https://github.com/JoshuaKeys/ping-ui/commit/c72c02399ece912346c7d60fa7ffca7eb6ed4e7b))
+
 # [1.8.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.7.0...v1.8.0) (2023-05-22)
 
 
