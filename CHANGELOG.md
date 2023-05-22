@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.4.0...v1.5.0) (2023-05-22)
+
+
+### Bug Fixes
+
+* **app:** updated building process ([a5f11f5](https://github.com/JoshuaKeys/ping-ui/commit/a5f11f567f5902f0b9a38316e01f81483efa1850))
+
+
+### Features
+
+* **release:** fixed pipelines ([9acf3b4](https://github.com/JoshuaKeys/ping-ui/commit/9acf3b472967ec2f2dac31e4375ce853d076480b))
+
 # [1.4.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.3.0...v1.4.0) (2023-05-22)
 
 
