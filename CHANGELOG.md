@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.6.0...v1.7.0) (2023-05-22)
+
+
+### Features
+
+* **testing:** welcome to ui world ([0169756](https://github.com/JoshuaKeys/ping-ui/commit/0169756a14a18b3d2e226bbf964c78fa667840a5))
+
 # [1.6.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.5.0...v1.6.0) (2023-05-22)
 
 
