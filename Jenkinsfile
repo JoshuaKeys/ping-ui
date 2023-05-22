@@ -46,10 +46,6 @@ pipeline {
             }
         }
         stage('Deployment') {
-            when {
-                branch 'master'
-            }
-
             steps{
                 nodejs(nodeJSInstallationName: 'nodejs') {
                     script {
