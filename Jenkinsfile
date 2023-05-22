@@ -33,6 +33,7 @@ pipeline {
             steps {
                 nodejs(nodeJSInstallationName: 'nodejs') {
                     sh 'npm run build:ping-ui'
+                    sh 'npm run build-storybook'
                 }
             }
         }
