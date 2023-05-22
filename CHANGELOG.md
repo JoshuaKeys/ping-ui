@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.5.0...v1.6.0) (2023-05-22)
+
+
+### Features
+
+* **testing:** changed the docs ([e7dd538](https://github.com/JoshuaKeys/ping-ui/commit/e7dd538cc0c0d2bce2e3c0c3ee65ef58ea20780b))
+
 # [1.5.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.4.0...v1.5.0) (2023-05-22)
 
 
