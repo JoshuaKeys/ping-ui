@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image: 'node:alpine'
+            args '-p 3000:3000'
+        }
+    }
     environment {
         GIT_AUTHOR_NAME = 'Joshua Avwerosuoghene Oguma'
         GIT_AUTHOR_EMAIL = 'joshua.oguma@outlook.com'
