@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'jodejs'
+    }
+
     environment {
         GIT_AUTHOR_NAME = 'Joshua Avwerosuoghene Oguma'
         GIT_AUTHOR_EMAIL = 'joshua.oguma@outlook.com'
