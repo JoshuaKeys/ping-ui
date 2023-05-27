@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.11.0...v1.12.0) (2023-05-27)
+
+
+### Features
+
+* **button:** added simple button ([6f1484d](https://github.com/JoshuaKeys/ping-ui/commit/6f1484de45cca79ac5030a611bc1bc3b632f8662))
+
 # [1.11.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.10.0...v1.11.0) (2023-05-27)
 
 
