@@ -1,3 +1,18 @@
+# [1.10.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.9.8...v1.10.0) (2023-05-27)
+
+
+### Bug Fixes
+
+* **ansible:** testing ansible ([6686bfc](https://github.com/JoshuaKeys/ping-ui/commit/6686bfc88f9f69f84851a4e398255c53875013d1))
+* **ansible:** testing ansible ([bdf901d](https://github.com/JoshuaKeys/ping-ui/commit/bdf901d231a5947750af38301cf779c728b79092))
+* **setup:** removed storybook static ([a719f8a](https://github.com/JoshuaKeys/ping-ui/commit/a719f8af17cd26ecafe795750ce5f39d3638f0b1))
+
+
+### Features
+
+* **cicd:** finished ci/cd ([cf35e6d](https://github.com/JoshuaKeys/ping-ui/commit/cf35e6d78bdfa20e96d0d6489ff72e183b81ebd1))
+* **cicd:** finished ci/cd ([64bf6b1](https://github.com/JoshuaKeys/ping-ui/commit/64bf6b1a58bb5d9840789a2662b1b1bf2cceb477))
+
 ## [1.9.8](https://github.com/JoshuaKeys/ping-ui/compare/v1.9.7...v1.9.8) (2023-05-23)
 
 
