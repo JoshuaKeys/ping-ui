@@ -39,11 +39,12 @@ pipeline {
 
         stage('Test Ansible') {
             steps {
-                ansiblePlaybook('/var/jenkins_home/ansible/play.yaml') {
-                    inventoryPath('/var/jenkins_home/ansible/inventory')
-                    colorizedOutput(true)
-                    credentialsId('pinglink-file')
-                }
+                ansiblePlaybook(
+                    playbook: '/var/jenkins_home/ansible/play.yaml',
+                    inventory: '/var/jenkins_home/ansible/inventory',
+                    credentialsId: 'pinglink-file',
+                    colorized: true
+                )
             }
         }
         
