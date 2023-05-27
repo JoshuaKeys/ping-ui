@@ -36,6 +36,16 @@ pipeline {
                 }
             }
         }
+
+        stage('Test Ansible') {
+            steps {
+                ansiblePlaybook('/var/jenkins_home/ansible/play.yaml') {
+                    inventoryPath('/var/jenkins_home/ansible/inventory')
+                    colorizedOutput(true)
+                    credentialsId('pinglink-file')
+                }
+            }
+        }
         
         stage('Publish NPM Library') {
             steps {
