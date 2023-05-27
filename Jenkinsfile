@@ -36,18 +36,6 @@ pipeline {
                 }
             }
         }
-
-        stage('Test Ansible') {
-            steps {
-                ansiblePlaybook(
-                    playbook: '/var/jenkins_home/ansible/play.yaml',
-                    inventory: '/var/jenkins_home/ansible/inventory',
-                    credentialsId: 'pinglink-file',
-                    colorized: true
-                )
-            }
-        }
-        
         stage('Publish NPM Library') {
             steps {
                 nodejs(nodeJSInstallationName: 'nodejs') {
@@ -75,10 +63,7 @@ pipeline {
                         sh "sshpass -p '${PASSWORD}' ssh -o StrictHostKeyChecking=no ${USERNAME}@${SERVER} sudo rm /tmp/deploy_doc_${BUILD_NUMBER}.sh"
                     }
                 }
-            }
-        }
-        stage('Test Ansible') {
-            steps {
+
                 ansiblePlaybook(
                     playbook: '/var/jenkins_home/ansible/play.yaml',
                     inventory: '/var/jenkins_home/ansible/inventory',
