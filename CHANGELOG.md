@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.10.0...v1.11.0) (2023-05-27)
+
+
+### Features
+
+* **introduction:** added title of the introduction ([39f816a](https://github.com/JoshuaKeys/ping-ui/commit/39f816afa9863696bcc11080a5a9b6758aacfe1e))
+
 # [1.10.0](https://github.com/JoshuaKeys/ping-ui/compare/v1.9.8...v1.10.0) (2023-05-27)
 
 
