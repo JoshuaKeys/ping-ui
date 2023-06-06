@@ -72,12 +72,12 @@ pipeline {
                     }
                 }
 
-                // ansiblePlaybook(
-                //     playbook: '/var/jenkins_home/ansible/play.yaml',
-                //     inventory: '/var/jenkins_home/ansible/inventory',
-                //     credentialsId: 'pinglink-file',
-                //     colorized: true
-                // )
+                ansiblePlaybook(
+                    playbook: '/var/jenkins_home/ansible/play.yml',
+                    inventory: '/var/jenkins_home/ansible/hosts',
+                    credentialsId: 'pinglink-file',
+                    colorized: true
+                )
             }
         }
             }
