@@ -1,0 +1,28 @@
+{/*Button.component.mdx*/}
+
+import { Canvas, Meta, Controls, Primary, Story, ArgTypes } from '@storybook/blocks';
+
+import * as ButtonStories from './button.component.stories.ts'
+
+<Meta of={ButtonStories}/>
+
+# Button
+
+A button is ...
+
+<Primary />
+
+## Props
+<Controls />
+
+## Stories
+### Primary
+A button can be of primary importance
+<Story of={ButtonStories.Primary}/>
+
+### Secondary
+A button can be of secondary importance
+<Story of={ButtonStories.Secondary}/>
+
+## Args
+<ArgTypes of={ButtonStories}/>

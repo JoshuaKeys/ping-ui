@@ -44,6 +44,7 @@
     "@semantic-release/release-notes-generator": "^11.0.1",
     "@storybook/addon-essentials": "^7.0.12",
     "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-knobs": "^7.0.2",
     "@storybook/addon-links": "^7.0.12",
     "@storybook/angular": "^7.0.12",
     "@storybook/blocks": "^7.0.12",
