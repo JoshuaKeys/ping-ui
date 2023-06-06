@@ -36,13 +36,21 @@ pipeline {
                 }
             }
         }
-        stage('Publish NPM Library') {
-            steps {
-                nodejs(nodeJSInstallationName: 'nodejs') {
-                    sh 'npm run semantic-release'
+        stage('Publish') {
+            when {
+                anyOf {
+                    branch 'master'
+                    branch 'beta'
                 }
             }
-        }
+            stages {
+                stage('Publish NPM Library') {
+                    steps {
+                        nodejs(nodeJSInstallationName: 'nodejs') {
+                            sh 'npm run semantic-release'
+                        }
+                    }
+                }
         stage('Deploy Storybook') {
             steps{
                 nodejs(nodeJSInstallationName: 'nodejs') {
@@ -72,6 +80,9 @@ pipeline {
                 // )
             }
         }
+            }
+        }
+        
         
     }
 }
